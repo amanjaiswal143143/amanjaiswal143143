@@ -14,7 +14,7 @@
 - 💡 I'm passionate about building intelligent, data-driven applications that solve real-world problems.
 - 🔭 **Currently Building:** AI-powered data analysis tools using Large Language Models (LLMs) and Natural Language Processing (NLP).
 - 🌱 **Learning & Exploring:** Retrieval-Augmented Generation (RAG), Data Engineering pipelines, and advanced Full-Stack concepts.
--  portfolio: [amanjaiswal.vercel.app](https://my-portfolio-aman-jaiswal.vercel.app/)
+- 👨‍💻 **My Portfolio:** [amanjaiswal.vercel.app](https://my-portfolio-aman-jaiswal.vercel.app/)
 - 📫 **Reach me at:** [amanjaiswal143143@gmail.com](mailto:amanjaiswal143143@gmail.com)
 - ⚡ **Fun Fact:** My journey into data and AI was sparked after representing Gujarat at the **National ENVIRONMENT Youth Parliament**! 🇮🇳
 
@@ -49,7 +49,7 @@
 </details>
 
 <details>
-  <summary><strong>Frontend Development</strong></summary>
+  <summary><strong>Frontend & UI Development</strong></summary>
   <p align="left">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
