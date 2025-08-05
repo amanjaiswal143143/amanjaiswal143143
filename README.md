@@ -8,7 +8,7 @@
 
 ---
 
-### 🚀 About Me
+### 🚀About Me
 
 - 🎓 I'm pursuing my Integrated M.Sc. in **Mathematics** at **Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat**.
 - 💡 I'm passionate about building intelligent, data-driven applications that solve real-world problems.
