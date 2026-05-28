@@ -1,84 +1,276 @@
 <div align="center">
-  <h1>Hi there, I'm Aman Jaiswal 👋</h1>
-  <h3>A passionate Mathematics undergrad from NIT Surat, diving deep into the world of AI, Full-Stack Development, and Data Science.</h3>
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=amanjaiswal143143&label=Profile%20Views&color=0e75b6&style=flat-square" alt="profile views" />
-  </p>
+
+# ⚡ Aman Jaiswal ⚡
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer;Full+Stack+Developer;Hackathon+Builder;Open+Source+Contributor;Building+Real+World+AI+Products;DSA+%7C+Next.js+%7C+Python+%7C+LLMs" />
+
+<h3>🚀 AI/ML Engineer • Full Stack Developer • Open Source Contributor</h3>
+
+<img src="https://komarev.com/ghpvc/?username=amanjaiswal143143&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
+
 </div>
 
 ---
 
-### 🚀About Me
+# 🧠 About Me
 
-- 🎓 I'm pursuing my Integrated M.Sc. in **Mathematics** at **Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat**.
-- 💡 I'm passionate about building intelligent, data-driven applications that solve real-world problems.
-- 🔭 **Currently Building:** AI-powered data analysis tools using Large Language Models (LLMs) and Natural Language Processing (NLP).
-- 🌱 **Learning & Exploring:** Retrieval-Augmented Generation (RAG), Data Engineering pipelines, and advanced Full-Stack concepts.
-- 👨‍💻 **My Portfolio:** [amanjaiswal.vercel.app](https://my-portfolio-aman-jaiswal.vercel.app/)
-- 📫 **Reach me at:** [amanjaiswal143143@gmail.com](mailto:amanjaiswal143143@gmail.com)
-- ⚡ **Fun Fact:** My journey into data and AI was sparked after representing Gujarat at the **National ENVIRONMENT Youth Parliament**! 🇮🇳
+```python
+class AmanJaiswal:
+    def __init__(self):
+        self.education = "Integrated M.Sc Mathematics @ SVNIT Surat"
+        self.interests = [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Full Stack Development",
+            "Computer Vision",
+            "LLMs",
+            "Data Science"
+        ]
+
+        self.currently_building = [
+            "AI Powered Applications",
+            "Vision Language Models",
+            "RAG Systems",
+            "Real-Time AI Platforms"
+        ]
+
+        self.learning = [
+            "Advanced AI Systems",
+            "Scalable Backend Architectures",
+            "Cloud & DevOps"
+        ]
+
+    def life_goal(self):
+        return "Build impactful AI products solving real-world problems 🚀"
+```
 
 ---
 
-
-### 🌐 Let's Connect
+# 🌐 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/amanjaiswal143143/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="45" />
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100006380460095" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="35" width="45" />
-  </a>
-  <a href="https://instagram.com/amanjaiswal__143" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="35" width="45" />
-  </a>
+
+<a href="https://www.linkedin.com/in/amanjaiswal143143/" target="blank">
+<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="50" />
+</a>
+
+<a href="https://instagram.com/amanjaiswal__143" target="blank">
+<img align="center" src="https://skillicons.dev/icons?i=instagram" height="50" />
+</a>
+
+<a href="mailto:amanjaiswal143143@gmail.com">
+<img align="center" src="https://skillicons.dev/icons?i=gmail" height="50" />
+</a>
+
+<a href="https://my-portfolio-aman-jaiswal.vercel.app/">
+<img align="center" src="https://skillicons.dev/icons?i=vercel" height="50" />
+</a>
+
 </p>
 
 ---
 
-<h3>🛠️ Languages & Tools</h3>
+# 🚀 Featured Projects
 
-<p align="left">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+<table>
 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="TailwindCSS" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/>
+<tr>
 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
+<td width="50%">
 
-    <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" alt="Pandas" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/>
-  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/>
+## 🛡️ Rakshak AI
 
-    <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/tableau/tableau-icon.svg" alt="Tableau" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter" width="40" height="40"/>
-  <img src="https://img.icons8.com/office/40/000000/ms-excel.png" alt="Excel" width="40" height="40"/>
+AI-powered emergency & women safety platform with:
 
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-</p>
+- Real-time alerts
+- AI integrations
+- Smart response system
+- Modern UI/UX
+
+### ⚙️ Tech Stack
+
+Next.js • Supabase • TypeScript • AI APIs
+
+</td>
+
+<td width="50%">
+
+## 🚨 CrimeWatch
+
+AI-powered real-time crime reporting system.
+
+### ✨ Features
+
+- AI crime prediction
+- Face recognition
+- Blockchain integrity
+- Live reporting dashboard
+
+### ⚙️ Tech Stack
+
+Next.js • Flask • MongoDB • OpenCV • Solidity
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+## 📈 Financial Dashboard
+
+Real-time stock analysis dashboard with:
+
+- Portfolio tracking
+- Interactive charts
+- Analytics system
+- Authentication
+
+### ⚙️ Tech Stack
+
+React • Express • PostgreSQL • Chart.js
+
+</td>
+
+<td width="50%">
+
+## 🩺 Ultrasound AI Reporting
+
+Vision Language Model based medical reporting system for ultrasound image understanding.
+
+### ⚙️ Tech Stack
+
+Python • PyTorch • NLP • Computer Vision
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-### 📊 My GitHub Stats
+# 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amanjaiswal143143&show_icons=true&theme=vision-friendly-dark&hide_border=true&count_private=true" alt="Aman's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=vision-friendly-dark&hide_border=true" alt="Aman's GitHub Streak" />
+
+## 💻 Languages
+
+<img src="https://skillicons.dev/icons?i=cpp,c,python,js,ts,java" />
+
+---
+
+## 🌐 Frontend Development
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,bootstrap" />
+
+---
+
+## ⚙️ Backend Development
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,supabase,firebase" />
+
+---
+
+## 🤖 AI / ML
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
+
+---
+
+## 🧰 Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma" />
+
 </div>
+
+---
+
+# 📊 GitHub Analytics
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=vision-friendly-dark&hide_border=true" alt="Top Languages" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=amanjaiswal143143&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=amanjaiswal143143&theme=radical&no-frame=true&row=1&column=7" />
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=amanjaiswal143143&theme=react-dark&hide_border=true&area=true" />
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://github.com/amanjaiswal143143/amanjaiswal143143/blob/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+# 💡 Currently Exploring
+
+- 🔥 Large Language Models (LLMs)
+- ⚡ Retrieval-Augmented Generation (RAG)
+- 🧠 AI Agents & Autonomous Systems
+- 📊 Data Engineering Pipelines
+- ☁️ Cloud Computing & DevOps
+
+---
+
+# 🏅 Achievements
+
+- 🏆 Hackathon Builder
+- 🚀 Open Source Contributor
+- 💻 Active Full Stack Developer
+- 🤖 AI/ML Enthusiast
+- 📚 DSA & Problem Solving
+- 🇮🇳 National Youth Parliament Participant
+
+---
+
+# ⚡ Fun Fact
+
+```diff
++ I love building AI systems that solve real-world problems.
++ Consistency + Curiosity + Building = Growth 🚀
+```
+
+---
+
+<div align="center">
+
+# 🚀 Code • Build • Learn • Repeat
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFAA,100:007CF0&height=120&section=footer"/>
+
 </div>
