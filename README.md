@@ -1,276 +1,169 @@
 <div align="center">
 
-# ⚡ Aman Jaiswal ⚡
+# 🚀 Aman Jaiswal
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer;Full+Stack+Developer;Hackathon+Builder;Open+Source+Contributor;Building+Real+World+AI+Products;DSA+%7C+Next.js+%7C+Python+%7C+LLMs" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Building+Scalable+Systems;DSA+%7C+Next.js+%7C+Python+%7C+AI" />
 
-<h3>🚀 AI/ML Engineer • Full Stack Developer • Open Source Contributor</h3>
+### AI/ML Engineer • Full Stack Developer • Open Source Contributor
 
-<img src="https://komarev.com/ghpvc/?username=amanjaiswal143143&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=amanjaiswal143143&label=Profile+Views&color=0e75b6&style=for-the-badge" />
+
+<br>
+
+🎓 Integrated M.Sc Mathematics @ SVNIT Surat
+🔬 Deep Learning Research Intern @ IIT Mandi
+🏆 Winner – Enfinity Hackathon
+🥇 National Finalist & Best Leader Award – NEYP'25
+🚀 Contributor – GirlScript Summer of Code 2025
+
+<p>
+<a href="https://www.linkedin.com/in/amanjaiswal143143/">LinkedIn</a> •
+<a href="mailto:i.aman02jaiswal@gmail.com">Email</a> •
+<a href="https://my-portfolio-aman-jaiswal.vercel.app/">Portfolio</a> •
+<a href="https://leetcode.com/">LeetCode</a>
+</p>
 
 </div>
 
 ---
 
-# 🧠 About Me
+## 🧠 About Me
 
 ```python
 class AmanJaiswal:
-    def __init__(self):
-        self.education = "Integrated M.Sc Mathematics @ SVNIT Surat"
-        self.interests = [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Full Stack Development",
-            "Computer Vision",
-            "LLMs",
-            "Data Science"
-        ]
 
-        self.currently_building = [
-            "AI Powered Applications",
-            "Vision Language Models",
-            "RAG Systems",
-            "Real-Time AI Platforms"
-        ]
+    education = "Integrated M.Sc Mathematics @ SVNIT Surat"
 
-        self.learning = [
-            "Advanced AI Systems",
-            "Scalable Backend Architectures",
-            "Cloud & DevOps"
-        ]
+    interests = [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Distributed Systems",
+        "Backend Engineering",
+        "Full Stack Development"
+    ]
 
-    def life_goal(self):
-        return "Build impactful AI products solving real-world problems 🚀"
+    currently_building = [
+        "Multimodal AI Systems",
+        "Vision Language Models",
+        "RAG Systems",
+        "Scalable Web Applications"
+    ]
+
+    goal = "Build technology that solves real-world problems"
 ```
 
 ---
 
-# 🌐 Connect With Me
+## 🚀 Featured Projects
+
+### 🛡️ Rakshak AI
+
+AI-powered women safety and emergency response platform with real-time alerts and intelligent assistance.
+
+**Tech:** Next.js • TypeScript • Supabase • AI APIs
+
+### 🩺 Ultrasound AI Reporting
+
+Multimodal Vision Language Model for ultrasound image understanding and automated report generation.
+
+**Tech:** Python • TensorFlow • NLP • Computer Vision
+
+### 💰 Gullak – Zero Clutter Financial Forecaster
+
+Scalable financial forecasting platform with event-driven backend architecture and REST APIs.
+
+**Tech:** Node.js • Express.js • PostgreSQL
+
+### 💼 Job Hunt
+
+Distributed full-stack job tracking platform with RBAC, optimized APIs and scalable backend.
+
+**Tech:** MongoDB • Express.js • React.js • Node.js
+
+### 🤖 Object Following Bot
+
+Autonomous object tracking robot using computer vision and real-time detection pipelines.
+
+**Tech:** Python • OpenCV • YOLO • TensorFlow
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+![My Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts,java)
+
+### Frontend
+
+![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css)
+
+### Backend & Databases
+
+![My Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase)
+
+### AI / ML
+
+![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv)
+
+### Tools
+
+![My Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma)
+
+---
+
+## 🔬 Experience
+
+### Deep Learning Research Intern — IIT Mandi
+
+* Built multimodal AI systems combining Vision Transformers and NLP
+* Developed concurrent inference pipelines reducing latency by 40%
+* Worked on automated clinical report generation from medical imaging
+* Designed scalable AI workflows for production-scale deployment
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=amanjaiswal143143&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
+</p>
 
-<a href="https://www.linkedin.com/in/amanjaiswal143143/" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="50" />
-</a>
-
-<a href="https://instagram.com/amanjaiswal__143" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=instagram" height="50" />
-</a>
-
-<a href="mailto:amanjaiswal143143@gmail.com">
-<img align="center" src="https://skillicons.dev/icons?i=gmail" height="50" />
-</a>
-
-<a href="https://my-portfolio-aman-jaiswal.vercel.app/">
-<img align="center" src="https://skillicons.dev/icons?i=vercel" height="50" />
-</a>
-
+<p align="center">
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-# 🚀 Featured Projects
+## 📈 Contribution Graph
 
-<table>
-
-<tr>
-
-<td width="50%">
-
-## 🛡️ Rakshak AI
-
-AI-powered emergency & women safety platform with:
-
-- Real-time alerts
-- AI integrations
-- Smart response system
-- Modern UI/UX
-
-### ⚙️ Tech Stack
-
-Next.js • Supabase • TypeScript • AI APIs
-
-</td>
-
-<td width="50%">
-
-## 🚨 CrimeWatch
-
-AI-powered real-time crime reporting system.
-
-### ✨ Features
-
-- AI crime prediction
-- Face recognition
-- Blockchain integrity
-- Live reporting dashboard
-
-### ⚙️ Tech Stack
-
-Next.js • Flask • MongoDB • OpenCV • Solidity
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%">
-
-## 📈 Financial Dashboard
-
-Real-time stock analysis dashboard with:
-
-- Portfolio tracking
-- Interactive charts
-- Analytics system
-- Authentication
-
-### ⚙️ Tech Stack
-
-React • Express • PostgreSQL • Chart.js
-
-</td>
-
-<td width="50%">
-
-## 🩺 Ultrasound AI Reporting
-
-Vision Language Model based medical reporting system for ultrasound image understanding.
-
-### ⚙️ Tech Stack
-
-Python • PyTorch • NLP • Computer Vision
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# 🛠️ Tech Stack
-
-<div align="center">
-
-## 💻 Languages
-
-<img src="https://skillicons.dev/icons?i=cpp,c,python,js,ts,java" />
-
----
-
-## 🌐 Frontend Development
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,bootstrap" />
-
----
-
-## ⚙️ Backend Development
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,supabase,firebase" />
-
----
-
-## 🤖 AI / ML
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
-
----
-
-## 🧰 Tools & Platforms
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma" />
-
-</div>
-
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=amanjaiswal143143&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=amanjaiswal143143&theme=radical&no-frame=true&row=1&column=7" />
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-<div align="center">
-
+<p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=amanjaiswal143143&theme=react-dark&hide_border=true&area=true" />
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://github.com/amanjaiswal143143/amanjaiswal143143/blob/output/github-contribution-grid-snake.svg)
-
-</div>
+</p>
 
 ---
 
-# 💡 Currently Exploring
+## 💻 LeetCode Stats
 
-- 🔥 Large Language Models (LLMs)
-- ⚡ Retrieval-Augmented Generation (RAG)
-- 🧠 AI Agents & Autonomous Systems
-- 📊 Data Engineering Pipelines
-- ☁️ Cloud Computing & DevOps
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/amanjaiswal143143?theme=dark&font=Karma&ext=heatmap" />
+</p>
 
 ---
 
-# 🏅 Achievements
+## 🏆 Achievements
 
-- 🏆 Hackathon Builder
-- 🚀 Open Source Contributor
-- 💻 Active Full Stack Developer
-- 🤖 AI/ML Enthusiast
-- 📚 DSA & Problem Solving
-- 🇮🇳 National Youth Parliament Participant
-
----
-
-# ⚡ Fun Fact
-
-```diff
-+ I love building AI systems that solve real-world problems.
-+ Consistency + Curiosity + Building = Growth 🚀
-```
+* 🏆 Winner — Enfinity Hackathon
+* 🥇 National Finalist & Best Leader Award — NEYP'25
+* 🚀 Contributor — GirlScript Summer of Code 2025
+* 🔬 Deep Learning Research Intern — IIT Mandi
+* 💻 Ex-SDE Intern — Bluestock Fintech
 
 ---
 
 <div align="center">
 
-# 🚀 Code • Build • Learn • Repeat
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFAA,100:007CF0&height=120&section=footer"/>
+## ⭐ Build • Learn • Scale ⭐
 
 </div>
