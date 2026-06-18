@@ -19,8 +19,7 @@
 <p>
 <a href="https://www.linkedin.com/in/amanjaiswal143143/">LinkedIn</a> •
 <a href="mailto:i.aman02jaiswal@gmail.com">Email</a> •
-<a href="https://my-portfolio-aman-jaiswal.vercel.app/">Portfolio</a> •
-<a href="https://leetcode.com/">LeetCode</a>
+<a href="https://my-portfolio-aman-jaiswal.vercel.app/">Portfolio</a>
 </p>
 
 </div>
@@ -92,23 +91,23 @@ Autonomous object tracking robot using computer vision and real-time detection p
 
 ### Languages
 
-![My Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts,java)
+![Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts,java)
 
 ### Frontend
 
-![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css)
+![Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css)
 
 ### Backend & Databases
 
-![My Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase)
+![Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase)
 
 ### AI / ML
 
-![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv)
+![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv)
 
 ### Tools
 
-![My Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma)
+![Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma)
 
 ---
 
@@ -126,7 +125,6 @@ Autonomous object tracking robot using computer vision and real-time detection p
 ## 📊 GitHub Analytics
 
 <p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=amanjaiswal143143&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -140,14 +138,6 @@ Autonomous object tracking robot using computer vision and real-time detection p
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=amanjaiswal143143&theme=react-dark&hide_border=true&area=true" />
-</p>
-
----
-
-## 💻 LeetCode Stats
-
-<p align="center">
-<img src="https://leetcard.jacoblin.cool/amanjaiswal143143?theme=dark&font=Karma&ext=heatmap" />
 </p>
 
 ---
