@@ -1,17 +1,16 @@
 <div align="center">
 
-# Aman Jaiswal
+# 🚀 Aman Jaiswal
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Building+Scalable+Systems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Building+Scalable+Systems;Open+Source+Contributor" />
 
 ### AI/ML Engineer • Full Stack Developer • Research Intern
 
-<p>
-🎓 SVNIT Surat &nbsp; • &nbsp;
-🔬 IIT Mandi &nbsp; • &nbsp;
-🏆 Enfinity Hackathon Winner &nbsp; • &nbsp;
-🥇 NEYP'25 Finalist
-</p>
+🎓 Integrated M.Sc Mathematics @ SVNIT Surat
+🔬 Deep Learning Research Intern @ IIT Mandi
+🏆 Winner — Enfinity Hackathon
+🥇 National Finalist & Best Leader Award — NEYP'25
+🚀 Contributor — GirlScript Summer of Code 2025
 
 <p>
 <a href="https://www.linkedin.com/in/amanjaiswal143143/">LinkedIn</a> •
@@ -23,10 +22,10 @@
 
 ---
 
-## About Me
+## 🧠 About Me
 
 ```python
-class Aman:
+class AmanJaiswal:
 
     role = "AI/ML Engineer & Full Stack Developer"
 
@@ -34,7 +33,8 @@ class Aman:
         "Machine Learning",
         "Computer Vision",
         "Distributed Systems",
-        "Backend Engineering"
+        "Backend Engineering",
+        "Full Stack Development"
     ]
 
     currently_building = [
@@ -42,69 +42,81 @@ class Aman:
         "RAG Applications",
         "AI Powered Platforms"
     ]
+
+    goal = "Build technology that solves real-world problems"
 ```
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 ### 🛡️ Rakshak AI
 
-AI-powered women safety platform with emergency alerts and intelligent assistance.
+AI-powered women safety and emergency response platform with real-time alerts and intelligent assistance.
 
-**Next.js • TypeScript • Supabase**
+**Tech:** Next.js • TypeScript • Supabase • AI APIs
 
 ### 🩺 Ultrasound AI Reporting
 
 Multimodal Vision Language Model for automated ultrasound report generation.
 
-**Python • TensorFlow • NLP**
+**Tech:** Python • TensorFlow • NLP • Computer Vision
 
-### 💰 Gullak
+### 💰 Gullak – Zero Clutter Financial Forecaster
 
 Scalable financial forecasting platform with event-driven backend architecture.
 
-**Node.js • PostgreSQL • Express.js**
+**Tech:** Node.js • Express.js • PostgreSQL
 
 ### 💼 Job Hunt
 
 Distributed full-stack job tracking application with RBAC and optimized APIs.
 
-**MongoDB • Express • React • Node.js**
+**Tech:** MongoDB • Express.js • React.js • Node.js
 
 ### 🤖 Object Following Bot
 
 Autonomous object tracking robot using YOLO and OpenCV.
 
-**Python • OpenCV • YOLO**
+**Tech:** Python • OpenCV • YOLO • TensorFlow
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Languages
 
-![Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts)
+<p>
+<img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,java" />
+</p>
 
 ### Frontend
 
-![Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind)
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
+</p>
 
-### Backend
+### Backend & Databases
 
-![Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres)
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase" />
+</p>
 
 ### AI / ML
 
-![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv)
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
+</p>
 
 ### Tools
 
-![Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode)
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma" />
+</p>
 
 ---
 
-## Experience
+## 🔬 Experience
 
 ### Deep Learning Research Intern — IIT Mandi
 
@@ -115,31 +127,26 @@ Autonomous object tracking robot using YOLO and OpenCV.
 
 ---
 
-## GitHub Stats
+## 📊 Most Used Languages
 
 <p align="center">
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## Achievements
+## 🏆 Achievements
 
-🏆 Winner — Enfinity Hackathon
-
-🥇 National Finalist & Best Leader Award — NEYP'25
-
-🚀 Contributor — GirlScript Summer of Code
-
-🔬 Research Intern — IIT Mandi
-
-💻 Ex-SDE Intern — Bluestock Fintech
+* 🏆 Winner — Enfinity Hackathon
+* 🥇 National Finalist & Best Leader Award — NEYP'25
+* 🚀 Contributor — GirlScript Summer of Code 2025
+* 🔬 Research Intern — IIT Mandi
+* 💻 Ex-SDE Intern — Bluestock Fintech
 
 ---
 
 <div align="center">
 
-### Build • Learn • Scale
+### ⭐ Build • Learn • Scale ⭐
 
 </div>
