@@ -1,20 +1,17 @@
 <div align="center">
 
-# 🚀 Aman Jaiswal
+# Aman Jaiswal
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00FFAA&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Building+Scalable+Systems;DSA+%7C+Next.js+%7C+Python+%7C+AI" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00FFAA&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Building+Scalable+Systems" />
 
-### AI/ML Engineer • Full Stack Developer • Open Source Contributor
+### AI/ML Engineer • Full Stack Developer • Research Intern
 
-<img src="https://komarev.com/ghpvc/?username=amanjaiswal143143&label=Profile+Views&color=0e75b6&style=for-the-badge" />
-
-<br>
-
-🎓 Integrated M.Sc Mathematics @ SVNIT Surat
-🔬 Deep Learning Research Intern @ IIT Mandi
-🏆 Winner – Enfinity Hackathon
-🥇 National Finalist & Best Leader Award – NEYP'25
-🚀 Contributor – GirlScript Summer of Code 2025
+<p>
+🎓 SVNIT Surat &nbsp; • &nbsp;
+🔬 IIT Mandi &nbsp; • &nbsp;
+🏆 Enfinity Hackathon Winner &nbsp; • &nbsp;
+🥇 NEYP'25 Finalist
+</p>
 
 <p>
 <a href="https://www.linkedin.com/in/amanjaiswal143143/">LinkedIn</a> •
@@ -26,80 +23,76 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 ```python
-class AmanJaiswal:
+class Aman:
 
-    education = "Integrated M.Sc Mathematics @ SVNIT Surat"
+    role = "AI/ML Engineer & Full Stack Developer"
 
     interests = [
-        "Artificial Intelligence",
         "Machine Learning",
+        "Computer Vision",
         "Distributed Systems",
-        "Backend Engineering",
-        "Full Stack Development"
+        "Backend Engineering"
     ]
 
     currently_building = [
-        "Multimodal AI Systems",
-        "Vision Language Models",
-        "RAG Systems",
-        "Scalable Web Applications"
+        "Ultrasound Vision Language Models",
+        "RAG Applications",
+        "AI Powered Platforms"
     ]
-
-    goal = "Build technology that solves real-world problems"
 ```
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🛡️ Rakshak AI
 
-AI-powered women safety and emergency response platform with real-time alerts and intelligent assistance.
+AI-powered women safety platform with emergency alerts and intelligent assistance.
 
-**Tech:** Next.js • TypeScript • Supabase • AI APIs
+**Next.js • TypeScript • Supabase**
 
 ### 🩺 Ultrasound AI Reporting
 
-Multimodal Vision Language Model for ultrasound image understanding and automated report generation.
+Multimodal Vision Language Model for automated ultrasound report generation.
 
-**Tech:** Python • TensorFlow • NLP • Computer Vision
+**Python • TensorFlow • NLP**
 
-### 💰 Gullak – Zero Clutter Financial Forecaster
+### 💰 Gullak
 
-Scalable financial forecasting platform with event-driven backend architecture and REST APIs.
+Scalable financial forecasting platform with event-driven backend architecture.
 
-**Tech:** Node.js • Express.js • PostgreSQL
+**Node.js • PostgreSQL • Express.js**
 
 ### 💼 Job Hunt
 
-Distributed full-stack job tracking platform with RBAC, optimized APIs and scalable backend.
+Distributed full-stack job tracking application with RBAC and optimized APIs.
 
-**Tech:** MongoDB • Express.js • React.js • Node.js
+**MongoDB • Express • React • Node.js**
 
 ### 🤖 Object Following Bot
 
-Autonomous object tracking robot using computer vision and real-time detection pipelines.
+Autonomous object tracking robot using YOLO and OpenCV.
 
-**Tech:** Python • OpenCV • YOLO • TensorFlow
+**Python • OpenCV • YOLO**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages
 
-![Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts,java)
+![Skills](https://skillicons.dev/icons?i=python,cpp,c,js,ts)
 
 ### Frontend
 
-![Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css)
+![Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind)
 
-### Backend & Databases
+### Backend
 
-![Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase)
+![Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres)
 
 ### AI / ML
 
@@ -107,53 +100,46 @@ Autonomous object tracking robot using computer vision and real-time detection p
 
 ### Tools
 
-![Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma)
+![Skills](https://skillicons.dev/icons?i=git,github,docker,linux,vscode)
 
 ---
 
-## 🔬 Experience
+## Experience
 
 ### Deep Learning Research Intern — IIT Mandi
 
-* Built multimodal AI systems combining Vision Transformers and NLP
-* Developed concurrent inference pipelines reducing latency by 40%
-* Worked on automated clinical report generation from medical imaging
-* Designed scalable AI workflows for production-scale deployment
+* Built multimodal AI systems using Vision Transformers and NLP
+* Reduced inference latency by 40%
+* Developed automated medical report generation pipelines
+* Designed scalable deployment workflows
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Stats
 
 <p align="center">
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanjaiswal143143&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 📈 Contribution Graph
+## Achievements
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amanjaiswal143143&theme=react-dark&hide_border=true&area=true" />
-</p>
+🏆 Winner — Enfinity Hackathon
 
----
+🥇 National Finalist & Best Leader Award — NEYP'25
 
-## 🏆 Achievements
+🚀 Contributor — GirlScript Summer of Code
 
-* 🏆 Winner — Enfinity Hackathon
-* 🥇 National Finalist & Best Leader Award — NEYP'25
-* 🚀 Contributor — GirlScript Summer of Code 2025
-* 🔬 Deep Learning Research Intern — IIT Mandi
-* 💻 Ex-SDE Intern — Bluestock Fintech
+🔬 Research Intern — IIT Mandi
+
+💻 Ex-SDE Intern — Bluestock Fintech
 
 ---
 
 <div align="center">
 
-## ⭐ Build • Learn • Scale ⭐
+### Build • Learn • Scale
 
 </div>
