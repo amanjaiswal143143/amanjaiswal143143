@@ -1,97 +1,93 @@
 <div align="center">
 
-<img width="100%" src="./banner.png" />
+<!-- ═══════════════════════════════════════════
+     HERO BANNER
+     Generate at: https://capsule-render.vercel.app
+     Or use the SVG banner code below as banner.svg
+════════════════════════════════════════════ -->
 
-# 👋 Hey, I'm Aman Jaiswal
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0a0a0f&height=3&section=header" />
 
-### AI/ML Engineer • Full Stack Developer • Research Intern @ IIT Mandi
+<br/>
 
-<p>
-🎓 Integrated M.Sc Mathematics @ SVNIT Surat (NIT Surat) <br>
-🔬 Deep Learning Research Intern @ IIT Mandi <br>
-🏆 Winner — Enfinity Hackathon <br>
-🥇 National Finalist & Best Leader Award — NEYP'25 <br>
-🚀 Contributor — GirlScript Summer of Code 2025
-</p>
+![Banner](https://capsule-render.vercel.app/api?type=rect&color=0,0,0,255&height=200&section=header&text=AMAN%20JAISWAL&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=45&desc=Computer%20Vision%20·%20LLMs%20·%20RAG%20·%20Full%20Stack%20·%20Research&descAlign=50&descAlignY=68&descColor=00d4ff&descSize=13&animation=twinkling&stroke=00d4ff&strokeWidth=0)
 
-<p>
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&duration=2800&pause=1200&color=00D4FF&center=true&vCenter=true&width=700&lines=Deep+Learning+Research+Intern+%40+IIT+Mandi;Computer+Vision+%7C+LLMs+%7C+RAG+Systems;Int.+M.Sc+Mathematics+%7C+SVNIT+Surat;Building+things+that+actually+work.)](https://git.io/typing-svg)
+
+<br/>
+
 <a href="https://www.linkedin.com/in/amanjaiswal143143/">
-<img src="https://skillicons.dev/icons?i=linkedin" height="42"/>
-</a>
-&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/LinkedIn-0a0a0f?style=for-the-badge&logo=linkedin&logoColor=00d4ff&labelColor=0a0a0f&color=0d1117" />
+</a>&nbsp;
 <a href="mailto:i.aman02jaiswal@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="42"/>
-</a>
-&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Gmail-0a0a0f?style=for-the-badge&logo=gmail&logoColor=00d4ff&labelColor=0a0a0f&color=0d1117" />
+</a>&nbsp;
 <a href="https://my-portfolio-aman-jaiswal.vercel.app/">
-<img src="https://skillicons.dev/icons?i=vercel" height="42"/>
+  <img src="https://img.shields.io/badge/Portfolio-0a0a0f?style=for-the-badge&logo=vercel&logoColor=00d4ff&labelColor=0a0a0f&color=0d1117" />
+</a>&nbsp;
+<a href="https://leetcode.com/amanjaiswal__143">
+  <img src="https://img.shields.io/badge/LeetCode-0a0a0f?style=for-the-badge&logo=leetcode&logoColor=00d4ff&labelColor=0a0a0f&color=0d1117" />
+</a>&nbsp;
+<a href="https://kaggle.com/amanjaiswal143143">
+  <img src="https://img.shields.io/badge/Kaggle-0a0a0f?style=for-the-badge&logo=kaggle&logoColor=00d4ff&labelColor=0a0a0f&color=0d1117" />
 </a>
-</p>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2500&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Building+AI+Products;Computer+Vision+%7C+LLMs+%7C+RAG;Full+Stack+Developer;Research+Intern+%40+IIT+Mandi;Always+Learning+Something+New" />
 
 </div>
 
+<br/>
+
 ---
 
-# 🚀 Featured Projects
+## `// Featured Projects`
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🛡️ Rakshak AI
+**Ultrasound AI Reporting**
 
-AI-powered emergency response and women safety platform.
+Vision Language Model for ultrasound image understanding and automated clinical report generation.
 
-**Tech**
-- Next.js
-- TypeScript
-- Supabase
-- AI APIs
+`Vision Transformer` `NLP` `PyTorch` `TensorFlow`
+
+[→ View Project](#)
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+**Rakshak AI** &nbsp;`Winner · Enfinity Hackathon`
 
-### 🩺 Ultrasound AI Reporting
+AI-powered emergency response platform — GPS-based SOS, guardian tracking, offline fallback.
 
-Vision Language Model for ultrasound image understanding and automated report generation.
+`Next.js` `TypeScript` `Supabase` `AI APIs`
 
-**Tech**
-- Python
-- TensorFlow
-- NLP
-- Computer Vision
+[→ View Project](#)
 
 </td>
 </tr>
-
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 💰 Gullak
+**Object Following Bot**
 
-Financial forecasting platform with scalable backend architecture.
+Autonomous robot with real-time object tracking using YOLOv8 and OpenCV on embedded hardware.
 
-**Tech**
-- Node.js
-- Express.js
-- PostgreSQL
+`YOLOv8` `OpenCV` `Python` `Embedded Systems`
+
+[→ View Project](#)
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+**Gullak**
 
-### 🤖 Object Following Bot
+Financial forecasting platform with scalable backend architecture and real-time data processing.
 
-Autonomous object tracking robot using YOLO and OpenCV.
+`Node.js` `PostgreSQL` `Express.js` `REST API`
 
-**Tech**
-- Python
-- OpenCV
-- YOLO
-- TensorFlow
+[→ View Project](#)
 
 </td>
 </tr>
@@ -99,61 +95,57 @@ Autonomous object tracking robot using YOLO and OpenCV.
 
 ---
 
-# ⚔️ Tech Stack
+## `// Stack`
+AI / ML      PyTorch · TensorFlow · OpenCV · HuggingFace · YOLO
 
-### Languages
+Languages    Python · C++ · TypeScript · Java · SQL
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,java" />
+Frontend     Next.js · React · Tailwind CSS
 
-### Frontend
+Backend      Node.js · Express · PostgreSQL · MongoDB · Docker · Supabase
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,supabase,firebase" />
-
-### AI / ML
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,figma" />
+Research     Vision Transformers · RAG · Multimodal AI · Medical Imaging
 
 ---
 
-# 🔬 Experience
+## `// Experience`
 
-## Deep Learning Research Intern — IIT Mandi
+**Deep Learning Research Intern** &nbsp;·&nbsp; IIT Mandi &nbsp;·&nbsp; `2024 — Present`
 
-- Built multimodal AI systems using Vision Transformers and NLP
-- Developed automated medical report generation pipelines
-- Worked on scalable AI workflows and deployment systems
-- Optimized inference performance for real-world usage
+- Built multimodal AI system using Vision Transformers for automated ultrasound report generation
+- Engineered end-to-end inference pipelines; optimized for real-world clinical deployment
+- Designed scalable AI workflows with measurable performance improvements across test sets
 
----
+**SDE Intern** &nbsp;·&nbsp; Bluestock Fintech &nbsp;·&nbsp; `2023`
 
-# 🏆 Achievements
-
-- 🏆 Winner — Enfinity Hackathon
-- 🥇 National Finalist & Best Leader Award — NEYP'25
-- 🚀 Contributor — GirlScript Summer of Code 2025
-- 🔬 Research Intern — IIT Mandi
-- 💻 Ex-SDE Intern — Bluestock Fintech
+- Developed and shipped production backend features for a fintech platform
 
 ---
 
-# 📊 GitHub
+## `// Achievements`
 
-<p align="center">
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+| | |
+|---|---|
+| **Winner · Enfinity Hackathon** | Rakshak AI — emergency response platform |
+| **National Finalist · NEYP'25** | Best Leader Award — national-level recognition |
+| **GSSoC 2025 Contributor** | GirlScript Summer of Code open source |
+| **Research Intern · IIT Mandi** | Selected for CV & medical AI research |
+| **Ex-SDE Intern · Bluestock** | Fintech backend engineering |
+
+---
+
+## `// Languages`
+
+<div align="center">
+
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanjaiswal143143&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=94a3b8&icon_color=00d4ff" />
+
+</div>
 
 ---
 
 <div align="center">
 
-## ⭐ BUILD • LEARN • SHIP • REPEAT ⭐
-
+BUILD · RESEARCH · SHIP · REPEAT
 </div>
+
