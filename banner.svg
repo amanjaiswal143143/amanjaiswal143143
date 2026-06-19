@@ -1,0 +1,126 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#060810"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+
+    <!-- grid fade mask so it's strongest center, fades at edges -->
+    <radialGradient id="gridFade" cx="50%" cy="55%" r="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask">
+      <rect width="1200" height="300" fill="url(#gridFade)"/>
+    </mask>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.18"/>
+    </pattern>
+
+    <!-- text glow -->
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowTight" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00c8ff"/>
+      <stop offset="100%" stop-color="#5ff2ff"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00c8ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- grid floor -->
+  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- ambient drifting glow orb -->
+  <circle cx="600" cy="150" r="3" fill="#00c8ff" opacity="0">
+    <animate attributeName="r" values="3;420;3" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.05;0" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- horizontal scan line traveling top to bottom -->
+  <rect x="0" y="0" width="1200" height="1.4" fill="url(#scanGrad)" opacity="0.8">
+    <animate attributeName="y" values="0;300;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner brackets -->
+  <g stroke="#00c8ff" stroke-width="1.4" opacity="0.55" fill="none">
+    <path d="M 24 24 L 24 50 M 24 24 L 50 24"/>
+    <path d="M 1176 24 L 1176 50 M 1176 24 L 1150 24"/>
+    <path d="M 24 276 L 24 250 M 24 276 L 50 276"/>
+    <path d="M 1176 276 L 1176 250 M 1176 276 L 1150 276"/>
+  </g>
+
+  <!-- pulse ring, top right -->
+  <g transform="translate(1140,38)">
+    <circle r="5" fill="#00c8ff"/>
+    <circle r="5" fill="none" stroke="#00c8ff" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="5;26;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- status bar text -->
+  <text x="36" y="270" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.5" fill="#00c8ff" opacity="0.28">SYS_INIT // PROFILE_ACTIVE</text>
+  <text x="1164" y="270" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.5" fill="#00c8ff" opacity="0.28" text-anchor="end">NIT_SURAT · IIT_MANDI · AI_RESEARCH</text>
+
+  <!-- eyebrow -->
+  <text x="600" y="92" font-family="JetBrains Mono, Consolas, monospace" font-size="12" letter-spacing="7" fill="#00c8ff" text-anchor="middle" opacity="0">
+    AI RESEARCH &amp; ENGINEERING
+    <animate attributeName="opacity" values="0;1;1" dur="0.7s" begin="0.1s" fill="freeze"/>
+  </text>
+
+  <!-- main name: soft glow halo layer -->
+  <text x="600" y="160" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#00c8ff" text-anchor="middle" opacity="0" filter="url(#glowSoft)">
+    AMAN JAISWAL
+    <animate attributeName="opacity" values="0;0.5;0.5" dur="0.8s" begin="0.3s" fill="freeze"/>
+  </text>
+  <!-- main name: crisp readable layer on top -->
+  <text x="600" y="160" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#ffffff" text-anchor="middle" opacity="0">
+    AMAN <tspan fill="#00c8ff">JAISWAL</tspan>
+    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- role line -->
+  <text x="600" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#8aa0b4" text-anchor="middle" opacity="0">
+    Computer Vision <tspan fill="#00c8ff66">·</tspan> LLMs <tspan fill="#00c8ff66">·</tspan> RAG <tspan fill="#00c8ff66">·</tspan> Full Stack <tspan fill="#00c8ff66">·</tspan> Research
+    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- node pills -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.7s" fill="freeze"/>
+
+    <rect x="318" y="222" width="248" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
+    <text x="442" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">DEEP LEARNING RESEARCH · IIT MANDI</text>
+
+    <rect x="578" y="222" width="220" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
+    <text x="688" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">INT. M.SC MATHEMATICS · SVNIT</text>
+
+    <rect x="810" y="222" width="150" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
+    <text x="885" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">HACKATHON WINNER</text>
+  </g>
+</svg>
