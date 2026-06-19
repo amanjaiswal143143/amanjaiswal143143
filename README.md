@@ -119,7 +119,7 @@ RESEARCH       Vision Transformers · RAG · Multimodal AI · Medical Imaging
 
 | | |
 |---|---|
-| **Winner · Enfinity Hackathon** | Rakshak AI — emergency response platform |
+| **Winner · Enfinity Hackathon** | Gullak -ZERO CLUTTER FINCIAL FORCASTING  |
 | **National Finalist · NEYP'25** | Best Leader Award, national-level recognition |
 | **GSSoC 2025 Contributor** | GirlScript Summer of Code, open source |
 | **Research Intern · IIT Mandi** | Selected for computer vision & medical AI research |
