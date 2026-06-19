@@ -35,7 +35,7 @@
 </td>
 <td width="50%" valign="top">
 
-`root@aman:~$ open rakshak_ai` &nbsp;`🏆 winner`
+`root@aman:~$ open rakshak_ai` &nbsp;``
 
 **Emergency response platform** — GPS-based SOS, guardian tracking, offline fallback. Winner, Enfinity Hackathon.
 
