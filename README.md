@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Aman Jaiswal" />
+<img src="./banner.svg" width="100%" alt="Aman Jaiswal — AI Research Engineer" />
 
 <br/>
 
@@ -17,6 +17,8 @@
 </div>
 
 <br/>
+<img src="./divider.svg" width="100%" alt=""/>
+<br/>
 
 ## `// 01 — FEATURED PROJECTS`
 
@@ -24,16 +26,18 @@
 <tr>
 <td width="50%" valign="top">
 
-### Ultrasound AI Reporting
-Vision-Language Model for ultrasound image understanding and automated clinical report generation. Research-grade pipeline built at IIT Mandi.
+`root@aman:~$ open ultrasound_ai_reporting`
+
+**Vision-Language Model** for ultrasound image understanding and automated clinical report generation. Research-grade pipeline built at IIT Mandi.
 
 `Vision Transformer` `NLP` `PyTorch` `TensorFlow` `Medical AI`
 
 </td>
 <td width="50%" valign="top">
 
-### Rakshak AI &nbsp;`🏆 Winner`
-AI-powered emergency response platform — GPS-based SOS, guardian tracking, offline fallback. Winner, Enfinity Hackathon.
+`root@aman:~$ open rakshak_ai` &nbsp;`🏆 winner`
+
+**Emergency response platform** — GPS-based SOS, guardian tracking, offline fallback. Winner, Enfinity Hackathon.
 
 `Next.js` `TypeScript` `Supabase` `AI APIs`
 
@@ -42,16 +46,18 @@ AI-powered emergency response platform — GPS-based SOS, guardian tracking, off
 <tr>
 <td width="50%" valign="top">
 
-### Job Hunt
-Full-stack job aggregation and application-tracking platform with structured search, filtering, and status pipelines.
+`root@aman:~$ open job_hunt`
+
+**Full-stack job platform** — aggregation, structured search, filtering, and application-status pipelines.
 
 `Next.js` `Node.js` `MongoDB` `REST API`
 
 </td>
 <td width="50%" valign="top">
 
-### Object Following Bot
-Autonomous robot with real-time object tracking using YOLOv8 and OpenCV, deployed on embedded hardware.
+`root@aman:~$ open object_following_bot`
+
+**Autonomous tracking robot** using YOLOv8 and OpenCV in real time, deployed on embedded hardware.
 
 `YOLOv8` `OpenCV` `Python` `Embedded Systems`
 
@@ -60,8 +66,9 @@ Autonomous robot with real-time object tracking using YOLOv8 and OpenCV, deploye
 <tr>
 <td width="50%" valign="top">
 
-### Gullak
-Financial forecasting platform with scalable backend architecture and real-time data processing.
+`root@aman:~$ open gullak`
+
+**Financial forecasting platform** with scalable backend architecture and real-time data processing.
 
 `Node.js` `Express.js` `PostgreSQL` `REST API`
 
@@ -70,12 +77,14 @@ Financial forecasting platform with scalable backend architecture and real-time 
 
 <br/>
 
-<sub>More builds in progress — check pinned repositories below.</sub>
+<sub>`> more builds compiling...` — check pinned repositories for live source.</sub>
 
 </td>
 </tr>
 </table>
 
+<br/>
+<img src="./divider.svg" width="100%" alt=""/>
 <br/>
 
 ## `// 02 — STACK`
@@ -89,6 +98,8 @@ RESEARCH       Vision Transformers · RAG · Multimodal AI · Medical Imaging
 ```
 
 <br/>
+<img src="./divider.svg" width="100%" alt=""/>
+<br/>
 
 ## `// 03 — EXPERIENCE`
 
@@ -100,6 +111,8 @@ RESEARCH       Vision Transformers · RAG · Multimodal AI · Medical Imaging
 **SDE Intern** — Bluestock Fintech&nbsp;&nbsp;`2023`
 - Developed and shipped production backend features for a fintech platform
 
+<br/>
+<img src="./divider.svg" width="100%" alt=""/>
 <br/>
 
 ## `// 04 — ACHIEVEMENTS`
@@ -113,6 +126,8 @@ RESEARCH       Vision Transformers · RAG · Multimodal AI · Medical Imaging
 | **Ex-SDE Intern · Bluestock** | Fintech backend engineering |
 
 <br/>
+<img src="./divider.svg" width="100%" alt=""/>
+<br/>
 
 ## `// 05 — LANGUAGES`
 
@@ -122,8 +137,4 @@ RESEARCH       Vision Transformers · RAG · Multimodal AI · Medical Imaging
 
 <br/>
 
-<div align="center">
-
-`BUILD · RESEARCH · SHIP · REPEAT`
-
-</div>
+<img src="./footer.svg" width="100%" alt=""/>
