@@ -1,126 +1,253 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- background -->
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#060810"/>
-      <stop offset="100%" stop-color="#070b14"/>
+      <stop offset="0%" stop-color="#020308"/>
+      <stop offset="50%" stop-color="#04060d"/>
+      <stop offset="100%" stop-color="#020308"/>
     </linearGradient>
-
-    <!-- grid fade mask so it's strongest center, fades at edges -->
-    <radialGradient id="gridFade" cx="50%" cy="55%" r="75%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
-    <mask id="gridMask">
-      <rect width="1200" height="300" fill="url(#gridFade)"/>
-    </mask>
-
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.18"/>
-    </pattern>
-
-    <!-- text glow -->
-    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="glowTight" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00c8ff"/>
-      <stop offset="100%" stop-color="#5ff2ff"/>
-    </linearGradient>
-
-    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00c8ff" stop-opacity="1"/>
+    <radialGradient id="coreGlow" cx="50%" cy="44%" r="55%">
+      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#00c8ff" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gridFade" cx="50%" cy="48%" r="82%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="360" fill="url(#gridFade)"/></mask>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00c8ff" stroke-width="0.6" opacity="0.14"/>
+    </pattern>
+    <filter id="glowLg" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSm" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="hsweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0"/><stop offset="50%" stop-color="#00c8ff" stop-opacity="0.9"/><stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="vsweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0"/><stop offset="100%" stop-color="#00c8ff" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="logFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04060d" stop-opacity="1"/>
+      <stop offset="15%" stop-color="#04060d" stop-opacity="0"/>
+      <stop offset="85%" stop-color="#04060d" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04060d" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="360"/></clipPath>
+    <clipPath id="logClip"><rect x="36" y="20" width="330" height="78"/></clipPath>
+    <clipPath id="logClipR"><rect x="834" y="20" width="330" height="78"/></clipPath>
   </defs>
 
-  <!-- base -->
-  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#coreGlow)"/>
+  <rect width="1200" height="360" fill="url(#grid)" mask="url(#gridMask)"/>
 
-  <!-- grid floor -->
-  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridMask)"/>
+  <!-- ============ NEURAL NODE GRAPH (signature element) ============ -->
+  <g transform="translate(600,178)" opacity="0.85">
+    <!-- layer columns: input(3) -> hidden(4) -> hidden(4) -> output(2) -->
+    <!-- connections -->
+    <g stroke="#00c8ff" stroke-width="0.6" opacity="0.18">
+      <!-- L0->L1 -->
+      <line x1="-260" y1="-50" x2="-110" y2="-66"/><line x1="-260" y1="-50" x2="-110" y2="-22"/><line x1="-260" y1="-50" x2="-110" y2="22"/><line x1="-260" y1="-50" x2="-110" y2="66"/>
+      <line x1="-260" y1="0"   x2="-110" y2="-66"/><line x1="-260" y1="0"   x2="-110" y2="-22"/><line x1="-260" y1="0"   x2="-110" y2="22"/><line x1="-260" y1="0"   x2="-110" y2="66"/>
+      <line x1="-260" y1="50"  x2="-110" y2="-66"/><line x1="-260" y1="50"  x2="-110" y2="-22"/><line x1="-260" y1="50"  x2="-110" y2="22"/><line x1="-260" y1="50"  x2="-110" y2="66"/>
+      <!-- L1->L2 -->
+      <line x1="-110" y1="-66" x2="110" y2="-66"/><line x1="-110" y1="-66" x2="110" y2="-22"/><line x1="-110" y1="-66" x2="110" y2="22"/><line x1="-110" y1="-66" x2="110" y2="66"/>
+      <line x1="-110" y1="-22" x2="110" y2="-66"/><line x1="-110" y1="-22" x2="110" y2="-22"/><line x1="-110" y1="-22" x2="110" y2="22"/><line x1="-110" y1="-22" x2="110" y2="66"/>
+      <line x1="-110" y1="22"  x2="110" y2="-66"/><line x1="-110" y1="22"  x2="110" y2="-22"/><line x1="-110" y1="22"  x2="110" y2="22"/><line x1="-110" y1="22"  x2="110" y2="66"/>
+      <line x1="-110" y1="66"  x2="110" y2="-66"/><line x1="-110" y1="66"  x2="110" y2="-22"/><line x1="-110" y1="66"  x2="110" y2="22"/><line x1="-110" y1="66"  x2="110" y2="66"/>
+      <!-- L2->L3 -->
+      <line x1="110" y1="-66" x2="260" y2="-25"/><line x1="110" y1="-66" x2="260" y2="25"/>
+      <line x1="110" y1="-22" x2="260" y2="-25"/><line x1="110" y1="-22" x2="260" y2="25"/>
+      <line x1="110" y1="22"  x2="260" y2="-25"/><line x1="110" y1="22"  x2="260" y2="25"/>
+      <line x1="110" y1="66"  x2="260" y2="-25"/><line x1="110" y1="66"  x2="260" y2="25"/>
+    </g>
 
-  <!-- ambient drifting glow orb -->
-  <circle cx="600" cy="150" r="3" fill="#00c8ff" opacity="0">
-    <animate attributeName="r" values="3;420;3" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.05;0" dur="9s" repeatCount="indefinite"/>
-  </circle>
+    <!-- traveling signal pulses along random paths -->
+    <circle r="2.2" fill="#5ff2ff" filter="url(#glowSm)">
+      <animateMotion dur="2.1s" repeatCount="indefinite" path="M-260,-50 L-110,-22 L110,66 L260,25"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.2" fill="#5ff2ff" filter="url(#glowSm)">
+      <animateMotion dur="2.6s" begin="0.4s" repeatCount="indefinite" path="M-260,0 L-110,66 L110,-22 L260,-25"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#5ff2ff" filter="url(#glowSm)">
+      <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M-260,50 L-110,-66 L110,22 L260,25"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#5ff2ff" filter="url(#glowSm)">
+      <animateMotion dur="2.3s" begin="1.4s" repeatCount="indefinite" path="M-260,-50 L-110,22 L110,-66 L260,-25"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="2.3s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
 
-  <!-- horizontal scan line traveling top to bottom -->
-  <rect x="0" y="0" width="1200" height="1.4" fill="url(#scanGrad)" opacity="0.8">
-    <animate attributeName="y" values="0;300;0" dur="7s" repeatCount="indefinite"/>
+    <!-- nodes -->
+    <g fill="#04060d" stroke="#00c8ff" stroke-width="1">
+      <circle cx="-260" cy="-50" r="3.5"/><circle cx="-260" cy="0" r="3.5"/><circle cx="-260" cy="50" r="3.5"/>
+      <circle cx="-110" cy="-66" r="3.5"/><circle cx="-110" cy="-22" r="3.5"/><circle cx="-110" cy="22" r="3.5"/><circle cx="-110" cy="66" r="3.5"/>
+      <circle cx="110" cy="-66" r="3.5"/><circle cx="110" cy="-22" r="3.5"/><circle cx="110" cy="22" r="3.5"/><circle cx="110" cy="66" r="3.5"/>
+      <circle cx="260" cy="-25" r="3.5"/><circle cx="260" cy="25" r="3.5"/>
+    </g>
+    <!-- node pulse rings, staggered -->
+    <g fill="none" stroke="#00c8ff">
+      <circle cx="-110" cy="-22" r="3.5" opacity="0"><animate attributeName="r" values="3.5;10" dur="1.6s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="1.6s" begin="0.2s" repeatCount="indefinite"/></circle>
+      <circle cx="110" cy="66" r="3.5" opacity="0"><animate attributeName="r" values="3.5;10" dur="1.6s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="1.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="260" cy="-25" r="3.5" opacity="0"><animate attributeName="r" values="3.5;10" dur="1.6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="1.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- ============ OSCILLOSCOPE WAVEFORM, bottom strip ============ -->
+  <g transform="translate(0,330)" opacity="0.55">
+    <path d="M0,8 L40,8 L52,-6 L64,18 L76,-12 L88,8 L120,8 L132,-4 L144,14 L156,-10 L168,8 L1200,8" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.3"/>
+    <path d="M0,8 L40,8 L52,-6 L64,18 L76,-12 L88,8 L120,8 L132,-4 L144,14 L156,-10 L168,8 L1200,8" fill="none" stroke="#00c8ff" stroke-width="1.4" filter="url(#glowSm)" stroke-dasharray="220 1400">
+      <animate attributeName="stroke-dashoffset" values="0;-1620" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ============ CIRCUIT TRACES ============ -->
+  <g stroke="#00c8ff" stroke-width="1" fill="none" opacity="0.2">
+    <path d="M0 58 H150 L172 80 H310"/>
+    <path d="M1200 64 H1050 L1028 86 H910"/>
+  </g>
+  <g fill="#00c8ff" opacity="0.5"><circle cx="150" cy="58" r="2"/><circle cx="310" cy="80" r="2"/><circle cx="1050" cy="64" r="2"/><circle cx="910" cy="86" r="2"/></g>
+  <circle r="2.4" fill="#5ff2ff"><animateMotion path="M1200 64 H1050 L1028 86 H910" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle r="2.4" fill="#5ff2ff"><animateMotion path="M0 58 H150 L172 80 H310" dur="2.4s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></circle>
+
+  <!-- ============ SWEEPS ============ -->
+  <rect x="0" y="0" width="2" height="360" fill="url(#hsweep)" opacity="0.55"><animate attributeName="x" values="-20;1220" dur="5s" repeatCount="indefinite"/></rect>
+  <rect x="0" y="0" width="1200" height="1.2" fill="url(#vsweep)" opacity="0.4"><animate attributeName="y" values="0;360;0" dur="9s" repeatCount="indefinite"/></rect>
+
+  <!-- ============ FRAME ============ -->
+  <g stroke="#00c8ff" stroke-width="1.4" opacity="0.6" fill="none">
+    <path d="M24 24 L24 54 M24 24 L54 24"/><path d="M1176 24 L1176 54 M1176 24 L1146 24"/>
+    <path d="M24 336 L24 306 M24 336 L54 336"/><path d="M1176 336 L1176 306 M1176 336 L1146 336"/>
+  </g>
+
+  <!-- radar dish -->
+  <g transform="translate(1140,42)">
+    <circle r="16" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.35"/>
+    <circle r="9" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.35"/>
+    <circle r="2.6" fill="#00c8ff"/>
+    <path d="M0 0 L0 -16 A16 16 0 0 1 11.3 -11.3 Z" fill="#00c8ff" opacity="0.35"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2.1s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- ============ LOOPING SCROLL LOG — LEFT ============ -->
+  <g clip-path="url(#logClip)">
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="0.3">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140; 0,-140" keyTimes="0;0.92;1" dur="11s" repeatCount="indefinite"/>
+        <text x="36" y="32" fill="#00c8ff">&gt; whoami</text>
+        <text x="36" y="45" fill="#5a7488">aman_jaiswal — ai_research_engineer</text>
+        <text x="36" y="58" fill="#00c8ff">&gt; status --check</text>
+        <text x="36" y="71" fill="#3ddc97">[ok] research_intern @ iit_mandi</text>
+        <text x="36" y="84" fill="#00c8ff">&gt; domains --list</text>
+        <text x="36" y="97" fill="#5a7488">cv · llm · rag · distributed_sys</text>
+        <text x="36" y="110" fill="#00c8ff">&gt; compile --target=production</text>
+        <text x="36" y="123" fill="#3ddc97">[ok] build finished in 1.62s</text>
+        <text x="36" y="136" fill="#00c8ff">&gt; whoami</text>
+        <text x="36" y="149" fill="#5a7488">aman_jaiswal — ai_research_engineer</text>
+        <text x="36" y="162" fill="#00c8ff">&gt; status --check</text>
+        <text x="36" y="175" fill="#3ddc97">[ok] research_intern @ iit_mandi</text>
+      </g>
+    </g>
+  </g>
+  <rect x="36" y="20" width="330" height="78" fill="url(#logFade)"/>
+
+  <!-- ============ LOOPING SCROLL LOG — RIGHT ============ -->
+  <g clip-path="url(#logClipR)">
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="0.3" text-anchor="end">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140; 0,-140" keyTimes="0;0.92;1" dur="13s" repeatCount="indefinite"/>
+        <text x="1164" y="32" fill="#00c8ff">uptime: building since 2023</text>
+        <text x="1164" y="45" fill="#5a7488">node: svnit_surat // int_msc_math</text>
+        <text x="1164" y="58" fill="#00c8ff">&gt; achievements --top</text>
+        <text x="1164" y="71" fill="#5a7488">enfinity_winner · neyp25_finalist</text>
+        <text x="1164" y="84" fill="#00c8ff">&gt; gpu --query</text>
+        <text x="1164" y="97" fill="#3ddc97">[ok] inference latency: 38ms</text>
+        <text x="1164" y="110" fill="#00c8ff">&gt; deploy --env=prod</text>
+        <text x="1164" y="123" fill="#3ddc97">[ok] open_to_opportunities</text>
+        <text x="1164" y="136" fill="#00c8ff">uptime: building since 2023</text>
+        <text x="1164" y="149" fill="#5a7488">node: svnit_surat // int_msc_math</text>
+        <text x="1164" y="162" fill="#00c8ff">&gt; achievements --top</text>
+        <text x="1164" y="175" fill="#5a7488">enfinity_winner · neyp25_finalist</text>
+      </g>
+    </g>
+  </g>
+  <rect x="834" y="20" width="330" height="78" fill="url(#logFade)"/>
+
+  <!-- ============ EYEBROW ============ -->
+  <text x="600" y="142" font-family="JetBrains Mono, Consolas, monospace" font-size="11" letter-spacing="9" fill="#00c8ff" text-anchor="middle" opacity="0">
+    AI RESEARCH &amp; ENGINEERING
+    <animate attributeName="opacity" values="0;1;1" dur="0.4s" begin="2.0s" fill="freeze"/>
+  </text>
+
+  <!-- ============ GLITCH FLASH ============ -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;0;1;0;1;0" keyTimes="0;0.15;0.3;0.45;0.6;0.75;1" dur="0.4s" begin="2.1s" fill="freeze"/>
+    <rect x="380" y="168" width="440" height="3" fill="#5ff2ff" opacity="0.55"/>
+    <rect x="410" y="186" width="380" height="2" fill="#5ff2ff" opacity="0.4"/>
+    <rect x="360" y="204" width="480" height="2.5" fill="#5ff2ff" opacity="0.5"/>
+  </g>
+
+  <!-- ============ NAME ============ -->
+  <text x="600" y="214" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#00c8ff" text-anchor="middle" opacity="0" filter="url(#glowLg)">
+    AMAN JAISWAL
+    <animate attributeName="opacity" values="0;0;0.5" keyTimes="0;0.55;1" dur="1.5s" begin="2.2s" fill="freeze"/>
+  </text>
+  <text x="600" y="214" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#ffffff" text-anchor="middle">
+    <tspan opacity="0">A<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.2s" fill="freeze"/></tspan><tspan opacity="0">M<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.26s" fill="freeze"/></tspan><tspan opacity="0">A<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.32s" fill="freeze"/></tspan><tspan opacity="0">N<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.38s" fill="freeze"/></tspan><tspan> </tspan><tspan fill="#00c8ff" opacity="0">J<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.5s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">A<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.56s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">I<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.62s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">S<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.68s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">W<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.74s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">A<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.8s" fill="freeze"/></tspan><tspan fill="#00c8ff" opacity="0">L<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.86s" fill="freeze"/></tspan>
+  </text>
+
+  <!-- ============ ROLE LINE ============ -->
+  <text x="600" y="252" font-family="JetBrains Mono, Consolas, monospace" font-size="14.5" fill="#8aa0b4" text-anchor="middle" opacity="0">
+    Computer Vision <tspan fill="#00c8ff77">·</tspan> LLMs <tspan fill="#00c8ff77">·</tspan> RAG <tspan fill="#00c8ff77">·</tspan> Full Stack <tspan fill="#00c8ff77">·</tspan> Distributed Systems
+    <animate attributeName="opacity" values="0;1;1" dur="0.4s" begin="3.0s" fill="freeze"/>
+  </text>
+  <rect x="640" y="240" width="2" height="14" fill="#00c8ff" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.95s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="3.3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- corner brackets -->
-  <g stroke="#00c8ff" stroke-width="1.4" opacity="0.55" fill="none">
-    <path d="M 24 24 L 24 50 M 24 24 L 50 24"/>
-    <path d="M 1176 24 L 1176 50 M 1176 24 L 1150 24"/>
-    <path d="M 24 276 L 24 250 M 24 276 L 50 276"/>
-    <path d="M 1176 276 L 1176 250 M 1176 276 L 1150 276"/>
+  <!-- ============ BUILD PROGRESS BAR ============ -->
+  <g transform="translate(600,280)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.3s" fill="freeze"/>
+    <text x="-180" y="0" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#3d5468" letter-spacing="0.5">BUILD</text>
+    <rect x="-130" y="-7" width="260" height="9" fill="none" stroke="#1a2840" stroke-width="1"/>
+    <rect x="-130" y="-7" width="0" height="9" fill="#00c8ff" opacity="0.7">
+      <animate attributeName="width" values="0;260" dur="1.4s" begin="3.4s" fill="freeze"/>
+    </rect>
+    <text x="148" y="0" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#3ddc97" letter-spacing="0.5" opacity="0">
+      100% OK
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.7s" fill="freeze"/>
+    </text>
   </g>
 
-  <!-- pulse ring, top right -->
-  <g transform="translate(1140,38)">
-    <circle r="5" fill="#00c8ff"/>
-    <circle r="5" fill="none" stroke="#00c8ff" stroke-width="1.5" opacity="0.6">
-      <animate attributeName="r" values="5;26;5" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
-    </circle>
+  <!-- ============ CREDENTIAL PILLS ============ -->
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="10" letter-spacing="0.6">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.0s" fill="freeze"/>
+      <rect x="260" y="300" width="244" height="25" fill="#00c8ff0a" stroke="#00c8ff2e" stroke-width="1"/>
+      <text x="382" y="317" fill="#00c8ffb0" text-anchor="middle">DEEP LEARNING RESEARCH · IIT MANDI</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.15s" fill="freeze"/>
+      <rect x="516" y="300" width="216" height="25" fill="#00c8ff0a" stroke="#00c8ff2e" stroke-width="1"/>
+      <text x="624" y="317" fill="#00c8ffb0" text-anchor="middle">INT. M.SC MATHEMATICS · SVNIT</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.3s" fill="freeze"/>
+      <rect x="744" y="300" width="196" height="25" fill="#00c8ff0a" stroke="#00c8ff2e" stroke-width="1"/>
+      <text x="842" y="317" fill="#00c8ffb0" text-anchor="middle">ENFINITY HACKATHON WINNER</text>
+    </g>
   </g>
 
-  <!-- status bar text -->
-  <text x="36" y="270" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.5" fill="#00c8ff" opacity="0.28">SYS_INIT // PROFILE_ACTIVE</text>
-  <text x="1164" y="270" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.5" fill="#00c8ff" opacity="0.28" text-anchor="end">NIT_SURAT · IIT_MANDI · AI_RESEARCH</text>
-
-  <!-- eyebrow -->
-  <text x="600" y="92" font-family="JetBrains Mono, Consolas, monospace" font-size="12" letter-spacing="7" fill="#00c8ff" text-anchor="middle" opacity="0">
-    AI RESEARCH &amp; ENGINEERING
-    <animate attributeName="opacity" values="0;1;1" dur="0.7s" begin="0.1s" fill="freeze"/>
-  </text>
-
-  <!-- main name: soft glow halo layer -->
-  <text x="600" y="160" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#00c8ff" text-anchor="middle" opacity="0" filter="url(#glowSoft)">
-    AMAN JAISWAL
-    <animate attributeName="opacity" values="0;0.5;0.5" dur="0.8s" begin="0.3s" fill="freeze"/>
-  </text>
-  <!-- main name: crisp readable layer on top -->
-  <text x="600" y="160" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#ffffff" text-anchor="middle" opacity="0">
-    AMAN <tspan fill="#00c8ff">JAISWAL</tspan>
-    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.3s" fill="freeze"/>
-  </text>
-
-  <!-- role line -->
-  <text x="600" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#8aa0b4" text-anchor="middle" opacity="0">
-    Computer Vision <tspan fill="#00c8ff66">·</tspan> LLMs <tspan fill="#00c8ff66">·</tspan> RAG <tspan fill="#00c8ff66">·</tspan> Full Stack <tspan fill="#00c8ff66">·</tspan> Research
-    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.5s" fill="freeze"/>
-  </text>
-
-  <!-- node pills -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" dur="0.8s" begin="0.7s" fill="freeze"/>
-
-    <rect x="318" y="222" width="248" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
-    <text x="442" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">DEEP LEARNING RESEARCH · IIT MANDI</text>
-
-    <rect x="578" y="222" width="220" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
-    <text x="688" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">INT. M.SC MATHEMATICS · SVNIT</text>
-
-    <rect x="810" y="222" width="150" height="24" fill="#00c8ff08" stroke="#00c8ff22" stroke-width="1"/>
-    <text x="885" y="238" font-family="JetBrains Mono, Consolas, monospace" font-size="10" fill="#00c8ff99" text-anchor="middle" letter-spacing="0.5">HACKATHON WINNER</text>
+  <!-- ============ AMBIENT PARTICLES ============ -->
+  <g fill="#00c8ff">
+    <circle cx="140" cy="345" r="1.2" opacity="0.45"><animate attributeName="cy" values="345;110" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.55;0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="340" r="1" opacity="0.4"><animate attributeName="cy" values="340;105" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="180" r="1" opacity="0.3"><animate attributeName="cx" values="60;1140" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.1;0.9;1" dur="14s" repeatCount="indefinite"/></circle>
+  </g>
   </g>
 </svg>
